@@ -16,10 +16,10 @@ log = "0.4.17"
 prost-types = "0.12"
 rand = "0.8.5"
 jito-searcher-client = { path = "../searcher_client" }
-solana-client = "=1.18.3"
-solana-metrics = "=1.18.3"
-solana-sdk = "=1.18.3"
-solana-transaction-status = "=1.18.3"
+solana-client = {git = "https://github.com/jito-foundation/jito-solana", tag = "v1.17.22-jito"}
+solana-metrics = {git = "https://github.com/jito-foundation/jito-solana", tag = "v1.17.22-jito"}
+solana-sdk = {git = "https://github.com/jito-foundation/jito-solana", tag = "v1.17.22-jito"}
+solana-transaction-status = {git = "https://github.com/jito-foundation/jito-solana", tag = "v1.17.22-jito"}
 spl-memo = "4.0.0"
 thiserror = "1.0.40"
 tokio = { version = "1", features = ["rt-multi-thread"] }
